@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.page1 {
+    background: #000; 
+}
+.page1 h6{
+    color: #f9aae6;
+    font-size: 5vw; 
+    position: relative;
+    top: 10vw;
+    left: 28vw; 
+}
+.card-container {
+    height: 600vh; /* Adjusted to fit all cards */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card {
+    height: 80vh;
+    width: 65%;
+    border-radius: 3vw;
+    position: sticky;
+     
+    margin-top: 50vh; /* Adjust margin to create space between cards */
+}
+
+.card1 { 
+    background: #fff5d2;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card1 h1{
+    font-size: 4.5vw;
+    font-weight: 600;
+
+}
+.card1 img{
+    height: 8vw;
+}
+
+.card2 {
+    background: #f5d2ff;
+    top: 12vh;
+    display: flex; 
+    justify-content: center;
+    
+    overflow: hidden;
+}
+
+.card2 img{
+     margin-left: -2vw;
+    height: 100%;
+    width: 60%;
+    object-fit: cover;
+}
+.card2 h1{
+    padding: 1vw;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 5vw;
+    color: #252020;
+}
+.card2 p{
+    padding-left: 1.2vw;
+    width: 50%;
+    font-weight: lighter;
+}
+.card2 button{
+    border-radius: 0.2vw;
+    background: #b5e3ff;
+    font-size: 1.5vw;
+    margin: 1.2vw;
+    padding: 0.5vw 1vw;
+}
+
+.card3 { 
+    top: 14vh;
+    display: flex;
+    overflow: hidden;
+}
+.card3 .left{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background: #eee2ecfe;
+}
+.card3 .left #img1{
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    height: 18vw;
+    object-fit: cover;
+}
+.card3 .left #img2{
+    position: absolute;
+    width: 17vw;
+    right: 0;
+    top: 7vw;
+    height: 15vw;
+    object-fit: cover;
+}
+.card3 .left #img3{
+    position: absolute;
+    left: 5vw;
+    bottom: 2vw;
+    width: 15vw;
+    height: 12vw;
+    object-fit: cover;
+}
+.card3 .right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fbd0e2fe;
+
+}
+.card3 .right h2{
+    padding: 2vw;
+    font-size: 2vw;
+}
+.card3 .right button{
+    padding: 0.5vw 1vw;
+    border-radius: 1vw;
+    font-size: 1.2vw;
+    background: rgb(231, 180, 247);
+    margin-left: -4vw;
+}
+
+.card4 {
+    background: #fff7f7;
+    top: 16vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.card4 .left{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    
+}
+.card4 .left h1{
+    padding: 2vw;
+    font-size: 7vw;
+    line-height: 6vw;
+    color: rgb(249, 73, 99);
+}
+.card4 .left p{
+    position: absolute;
+    bottom: 2vw;
+    right: 5vw;
+    font-size: 1.5vw;
+    color: rgb(249, 73, 99);
+}
+.card4 .right{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    
+}
+.card4 .right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card5 {
+    background: #f8f2f5;
+    top: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card5 h1{
+    font-size: 8vw;
+    line-height: 8vw;
+    color: rgb(108, 0, 0);
+}
+.craft{
+    position: relative;
+}
+.craft :nth-child(1){
+    font-size: 1vw;
+    background: greenyellow;
+    padding: 0.6vw 1vw;
+    border-radius: 0.7vw;
+    position: absolute;
+    top: -15vw;
+    left: -20vw;
+    transform: rotate(10deg);
+}
+.craft :nth-child(2){
+    font-size: 1vw;
+    background: rgb(246, 111, 221);
+    padding: 0.6vw 1vw;
+    border-radius: 0.7vw;
+    position: absolute;
+    top: -15vw;
+    left: 10vw;
+    transform: rotate(-10deg);
+}
+.craft :nth-child(3){
+    font-size: 1vw;
+    background: rgb(255, 238, 47);
+    padding: 0.6vw 1vw;
+    border-radius: 0.7vw;
+    position: absolute;
+    top: -2vw;
+    left: -15vw;
+    transform: rotate(2deg);
+}
+.craft :nth-child(4){
+    font-size: 1vw;
+    background: rgb(47, 252, 255);
+    padding: 0.6vw 1vw;
+    border-radius: 0.7vw;
+    position: absolute; 
+    width: 9vw;
+    top: -2vw;
+    left: 5vw;
+    
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    background: #fddbfb;
+}
+.page2 h1{
+    font-size: 11vw;
+    line-height: 10vw;
+    color: #252020;
+}
